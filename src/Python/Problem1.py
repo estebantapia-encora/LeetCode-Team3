@@ -5,4 +5,4 @@ class Solution(object):
         if array_length % 2 != 0:
             return final_array [array_length // 2]
         else:
-            return (final_array[array_length // 2 - 1] + final_array[array_length // 2]) / 2
+            return (final_array[array_length // 2 - 1] + final_array[array_length // 2]) / 2.0
